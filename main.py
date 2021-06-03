@@ -1,4 +1,4 @@
-import discord 
+   import discord 
 import asyncio
 import requests
 from discord.ext import commands
@@ -57,4 +57,4 @@ async def covid(ctx, *, countryName = None):
         embed3.set_author(name="Error!")
         await ctx.send(embed=embed3)
       
-client.run("ODQ2ODM4Mzc3MzYxMTc4Njg0.YK1Vsg.g0h0ZSuZ74kAiN616C2I72sgWCA")   
+client.run(Token)
